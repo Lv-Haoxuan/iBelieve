@@ -1,0 +1,67 @@
+/** Believe UI
+Start Work Time:2015/10/16 21:38
+Stop Work Time:2015/10/16 21:40
+By Futstu
+**/
+
+/* Body */
+
+body {
+    font-family:Microsoft YaHei Light,Microsoft Yahei,Comic sans ms,WenQuanYi Micro Hei,幼圆,黑体,sans-serif,Helvetica,Tahoma,Arial,Hiragino Sans GB ;
+}
+
+/* Button */
+
+.button,
+button,
+[type=button] {
+  cursor: pointer;
+  display: inline-block;
+  min-width: 120px;
+  padding: 10px 25px;
+  margin-bottom: 16px;
+  border: none;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: center;
+  text-decoration: none;
+  background: #66f9cf;
+  color: #fff;
+  border-radius: 6px;
+}
+.button:hover,
+button:hover,
+[type=button]:hover {
+  background: #66f9cf;
+}
+.button-mini {
+  padding: 5px 15px;
+  min-width: 30px;
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+.button-big {
+  padding: 12px 45px;
+  min-width: 200px;
+  font-size: 1.4em;
+}
+.button-ghost {
+  /*幽灵按钮*/
+  background: transparent;
+  padding: 8px 25px;
+  color: #66f9cf;
+  background: none;
+}
+.button-ghost:hover {
+  color: #ffffff;
+  border: 2px solid #66f9cf;
+}
+.button-ghost-custom {
+  /*用于自定义幽灵按钮颜色*/
+
+  cursor: pointer;
+  outline: none;
+  color: none;
+  background: none;
+  border: 2px solid none;
+}
